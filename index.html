@@ -1,0 +1,982 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- icon and title here -->
+    <title>Mohammad Ibrahim Khalil</title>
+    <link rel="icon" href="images/icon.png">
+    <!-- jq css here -->
+    <link rel="stylesheet" href="css/fancy.css">
+    <link rel="stylesheet" href="css/fancybox2.css">
+    <link rel="stylesheet" href="css/sticky-header.css">
+    <link rel="stylesheet" href="css/lity.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- font-awesome css here -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- font family link here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- custom css link here  -->
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body class="fix-x">
+    <!--==============================
+    header starting 
+    ================================-->
+    <header class="">
+        <div class="header_top bgc-73 py-10">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-6 text-center text-xl-start d-none d-lg-block">
+                        <ul>
+                            <li class="d-inline-block mr-30">
+                                <a href="tel: 01996121666" class="text-white fs-14 ffop f-400">
+                                    <span class="mr-5"><i class="fas fa-headphones"></i></span>
+                                    <span>01996121666</span>
+                                </a>
+                            </li>
+                            <li class="d-inline-block mr-30">
+                                <a href="mailto: Demo@gmail.com" class="text-white fs-14 ffop f-400">
+                                    <span class="mr-5"><i class="far fa-envelope"></i></span>
+                                    <span>ibrahim@gmail.com</span>
+                                </a>
+                            </li> 
+                            <li class="text-white fs-14 ffop f-400 d-inline-block mr-30">Mon-Fri : 9:00 - 1700</li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-6 text-xl-end text-center mt-md-0 mt-lg-3 mt-xl-0">
+                        <div class="right_side">
+                            <ul class="singin_up">
+                                <li class="d-inline-block mr-30">
+                                    <a href="" class="tc-ff ffop fs-14 f-400">Login</a>
+                                    <span class="text-white">/</span>
+                                    <a href="" class="tc-ff ffop fs-14 f-400">Signin</a>
+                                </li>
+                                <li class="d-inline-block">
+                                    <a href="index.html" class="tc-33 ffop f-400 fs-14 py-05 px-15 bg-white">Appointment Here</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- main nav starting  -->
+        <nav class="main_nav bg-white shadow py-45 header-sticky d-flex align-items-center">
+            <div class="container d-flex justify-content-between align-items-center">
+                <!-- site logo -->
+                <div class="logo d-flex align-items-center"><a href="index.html"><img src="images/navbar.png" alt="site-logo" class="img-fluid"></a></div>
+                <!-- toogle bar and mobile-search-box -->
+                <div class="d-block d-lg-none d-flex justify-content-center align-items-center">
+                    <!-- moble toggle menu bar  -->
+                    <div class="mr-20 menu-toggle-bar" onclick="myFunction(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+
+                    <!-- mobile search box  -->
+                    <div class="mobile-search-box position-relative d-flex align-items-center">
+                        <a href="#" class="ffm search-box-open fs-14 f-600 tc-ff uppercase rounded-circle text-center bgc-73"><i class="fas fa-search"></i></a>
+                        <form action="#" class="d-flex align-items-center bg-ff search-box">
+                            <input type="search" name="search" placeholder="Search Here" class="w-75 p-2 ffm f-500 bgc-ff">
+                            <button type="submit" class="w-25 p-2 fs-16 tc-ff bgc-73">Search</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- menu area -->
+                <div class="main_menu d-flex justify-content-center align-items-center">
+                    <ul class="text-center text-lg-end main_menu_ul">
+                        <li class="d-lg-inline-block mr-40 active"><a href="index.html" class="ffm fs-14 f-600 tc-33 uppercase">Home</a></li>
+                        <li class="d-lg-inline-block mr-40"><a href="#about" class="ffm fs-14 f-600 tc-33 uppercase">about</a></li>
+                        <li class="d-lg-inline-block mr-40"><a href="#service" class="ffm fs-14 f-600 tc-33 uppercase">service</a></li>
+                        <li class="d-lg-inline-block mr-40"><a href="#pricing" class="ffm fs-14 f-600 tc-33 uppercase">pricing</a></li>
+                        <li class="d-lg-inline-block mr-40"><a href="#shop" class="ffm fs-14 f-600 tc-33 uppercase">shop</a></li>
+                        <li class="d-lg-inline-block mr-40"><a href="#pages" class="ffm fs-14 f-600 tc-33 uppercase">pages</a></li>
+                        <li class="d-lg-inline-block mr-40"><a href="#blog" class="ffm fs-14 f-600 tc-33 uppercase">blog</a></li>
+                        <li class="d-lg-inline-block mr-40"><a href="#contact" class="ffm fs-14 f-600 tc-33 uppercase">contact</a></li>
+                        <!-- search box here -->
+                        <li class="d-none d-lg-inline-block position-relative">
+                            <a href="#" class="ffm search-box-open fs-14 f-600 tc-ff uppercase rounded-circle text-center bgc-73"><i class="fas fa-search"></i></a>
+                            <form action="#" class="d-flex align-items-center bg-ff search-box">
+                                <input type="search" name="search" placeholder="Search Here" class="w-75 p-2 ffm f-500 bgc-ff">
+                                <button type="submit" class="w-25 p-2 fs-16 tc-ff bgc-73">Search</button>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--==============================
+    header ending 
+    ================================-->
+
+    <main>
+        <!--==============================
+        hero section starting 
+        ================================-->
+        <section class="hero_section fix">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-5 d-none d-md-block">
+                        <div class="hero_img">
+                            <img src="images/hero.png" alt="hero" class="img-fluid w-100">
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="banner_content">
+                            <h1 class="fm fs-55 tc-ff f-800">Takes Practice Superior
+                            Of Excellence</h1>
+                            <p class="ffop fs-14 f-400 tc-ff pt-30 pb-45">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. enim ad minim veniam</p>
+                            <a href="index.html" class="tc-73 ffop f-400 fs-14 py-10 px-20 bg-white bgc-ff uppercase">explore more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==============================
+        hero section ending 
+        ================================-->
+        <!--==============================
+        welcoming garden section starting 
+        ================================-->
+        <section class="wel_garden pt-80 pb-70" id="about">
+            <div class="container">
+                <div class="sec_title text-center italic"> <!-- sec title -->
+                    <div class="main_sec_title">
+                        <h2 class="f-700 fs-35 ffm italic">Welcome To <span class="tc-73 italic">Garden</span></h2>
+                    </div>
+                    <div class="bottom_style mt-8 mb-20">
+                        <hr class="line1">
+                        <hr class="line2">
+                    </div>
+                    <div class="sec_des m-auto tc-66 fs-15">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+                    </div>
+                </div>
+
+                <div class="row pt-50 g-0">
+                    <div class="col-md-6 col-lg-4"> <!-- gadern item 1 -->
+                        <div class="garden_box text-center bgc-4b px-15 py-35 position-relative">
+                            <i class="fab fa-envira tc-ff fs-50"></i>
+                            <h3 class="tc-ff fs-18 ffm f-500 pt-25 pb-20">IRRIGATION & DRAINAGE</h3>
+                            <p class="ffop f-400 fs-14 tc-ff pb-05">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                            <div class="com_btn">
+                                <a href="index.html" class="btn_parimary ffm fs-15 tc-ff bgc-73 uppercase f-500 rounded-pill text-center">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">  <!-- gadern item 2 -->
+                        <div class="garden_box text-center bgc-4b px-15 py-35 position-relative">
+                            <i class="fas fa-leaf tc-ff fs-50"></i>
+                            <h3 class="tc-ff fs-18 ffm f-500 pt-25 pb-20 uppercase">Specialized Company</h3>
+                            <p class="ffop f-400 fs-14 tc-ff pb-05">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                            <div class="com_btn">
+                                <a href="index.html" class="btn_parimary ffm fs-15 tc-ff bgc-73 uppercase f-500 rounded-pill text-center">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 m-auto">  <!-- gadern item 3 -->
+                        <div class="garden_box text-center bgc-4b px-15 py-35 position-relative">
+                            <i class="fas fa-tree tc-ff fs-50"></i>
+                            <h3 class="tc-ff fs-18 ffm f-500 pt-25 pb-20 uppercase">Landscape Management</h3>
+                            <p class="ffop f-400 fs-14 tc-ff pb-05">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                            <div class="com_btn">
+                                <a href="index.html" class="btn_parimary ffm fs-15 tc-ff bgc-73 uppercase f-500 rounded-pill text-center">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==============================
+        welcoming graden section ending 
+        ================================-->
+        <!--==============================
+        landscape section starting 
+        ================================-->
+        <section class="lnd_sec py-100">
+            <div class="container">
+                <div class="row g-4 d-flex align-items-center">
+                    <div class="col-lg-5 col-xl-6"> <!-- main video part -->
+                        <div class="video_part position-relative"> <!-- main video -->
+                            <img src="images/play-btn.jpg" alt="play-btn" class="img-fluid w-100">
+                            <a href="//www.youtube.com/watch?v=XSGBVzeBUbk" data-lity class="play-btn bgc-ff rounded-circle text-center">
+                                <i class="fas fa-play-circle tc-73 fs-35"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-xl-6">
+                        <!--  landscape content part -->
+                        <div class="lnd-content">
+                            <h3 class="tc-ff fs-20 ffm f-500">SERVICE IN LANDSCAPPING</h3>
+                            <p class="ffop f-400 fs-14 tc-ff pt-35 pb-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo incid et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatio laboris nis aliquip ex ea commodo consequat. Du inreprehenderit in voluptate velit esse cillum dolor fugiat nulla pariatur. Excepteur sint occaecat cupidatat</p>
+                            <div class="d-flex lnd_ser_list">
+                                <ul class="lnd_ser_list1 mr-70">
+                                    <li class="d-flex align-items-center">
+                                        <i class="fas fa-angle-double-right  tc-ff fs-18 mr-05"></i>
+                                        <span class="ffop f-400 fs-14 tc-ff">Lawn Renovation</span>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <i class="fas fa-angle-double-right  tc-ff fs-18 mr-05"></i>
+                                        <span class="ffop f-400 fs-14 tc-ff">24×7 Emergency Services</span>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <i class="fas fa-angle-double-right  tc-ff fs-18 mr-05"></i>
+                                        <span class="ffop f-400 fs-14 tc-ff">Feel like Home Services</span>
+                                    </li>
+                                </ul>
+                                <ul class="lnd_ser_list2">
+                                    <li class="d-flex align-items-center">
+                                        <i class="fas fa-angle-double-right  tc-ff fs-18 mr-05"></i>
+                                        <span class="ffop f-400 fs-14 tc-ff">Natural Stone Walks</span>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <i class="fas fa-angle-double-right  tc-ff fs-18 mr-05"></i>
+                                        <span class="ffop f-400 fs-14 tc-ff">Outdoor Checkup</span>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <i class="fas fa-angle-double-right tc-ff fs-18 mr-05"></i>
+                                        <span class="ffop f-400 fs-14 tc-ff">Easy and Affordable Billing</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="com_btn pt-30">
+                                <a href="index.html" class="btn_parimary ffm fs-15 tc-ff bgc-4b uppercase f-500 rounded-pill text-center">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==============================
+        landscape section ending 
+        ================================-->
+        <!--==============================
+        our  services  section starting 
+        ================================-->
+        <section class="service pt-90 pb-85" id="service">
+            <div class="container">
+                <div class="sec_title text-center italic pb-50">
+                    <div class="main_sec_title">
+                        <h2 class="f-700 fs-35 ffm italic">Our Service</h2>
+                    </div>
+                    <div class="bottom_style mt-10 mb-20">
+                        <hr class="line1">
+                        <hr class="line2">
+                    </div>
+                    <div class="sec_des m-auto tc-66 fs-15">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="row g-0">
+                    <div class="col-sm-6 col-xl-4 col-lg-6"> <!-- box 1 -->
+                        <div class="service_box bgc-f9 d-md-flex align-items-center px-15 py-30">
+                            <div class="service_icon mr-15">
+                                <span class="rounded-circle bgc-73 d-flex justify-content-center align-items-center mx-md-0"><i class="fab fa-pagelines fs-30 tc-ff"></i></span>
+                            </div>
+                            <div class="service_content ">
+                                <h2 class="tc-66 ffm fs-18 f-600 uppercase">Licensed Bonded</h2>
+                                <hr>
+                                <p class="tc-66 ffop fs-14 f-400">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-4 col-lg-6"> <!-- box 2 -->
+                        <div class="service_box bgc-f9 d-md-flex align-items-center px-15 py-30">
+                            <div class="service_icon mr-15">
+                                <span class="rounded-circle bgc-73 d-flex justify-content-center align-items-center mx-md-0"><i class="fas fa-tree fs-30 tc-ff"></i></span>
+                            </div>
+                            <div class="service_content ">
+                                <h2 class="tc-66 ffm fs-18 f-600 uppercase">excellent service</h2>
+                                <hr>
+                                <p class="tc-66 ffop fs-14 f-400">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-4 col-lg-6"> <!-- box 3 -->
+                        <div class="service_box bgc-f9 d-md-flex align-items-center px-15 py-30">
+                            <div class="service_icon mr-15">
+                                <span class="rounded-circle bgc-73 d-flex justify-content-center align-items-center mx-md-0"><i class="fas fa-leaf fs-30 tc-ff"></i></span>
+                            </div>
+                            <div class="service_content ">
+                                <h2 class="tc-66 ffm fs-18 f-600 uppercase">water gardening</h2>
+                                <hr>
+                                <p class="tc-66 ffop fs-14 f-400">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-4 col-lg-6"> <!-- box 4 -->
+                        <div class="service_box bgc-f9 d-md-flex align-items-center px-15 py-30">
+                            <div class="service_icon mr-15">
+                                <span class="rounded-circle bgc-73 d-flex justify-content-center align-items-center mx-md-0"><i class="fas fa-fire fs-30 tc-ff"></i></span>
+                            </div>
+                            <div class="service_content ">
+                                <h2 class="tc-66 ffm fs-18 f-600 uppercase">garden decoration</h2>
+                                <hr>
+                                <p class="tc-66 ffop fs-14 f-400">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-4 col-lg-6"> <!-- box 5  -->
+                        <div class="service_box bgc-f9 d-md-flex align-items-center px-15 py-30">
+                            <div class="service_icon mr-15">
+                                <span class="rounded-circle bgc-73 d-flex justify-content-center align-items-center mx-md-0"><i class="fas fa-shower fs-30 tc-ff"></i></span>
+                            </div>
+                            <div class="service_content ">
+                                <h2 class="tc-66 ffm fs-18 f-600 uppercase">license & insurance</h2>
+                                <hr>
+                                <p class="tc-66 ffop fs-14 f-400">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-4 col-lg-6"> <!--  box 6 -->
+                        <div class="service_box bgc-f9 d-md-flex align-items-center px-15 py-30">
+                            <div class="service_icon mr-15">
+                                <span class="rounded-circle bgc-73 d-flex justify-content-center align-items-center mx-md-0"><i class="fas fa-hands-wash fs-30 tc-ff"></i></span>
+                            </div>
+                            <div class="service_content ">
+                                <h2 class="tc-66 ffm fs-18 f-600 uppercase">30 years of experience</h2>
+                                <hr>
+                                <p class="tc-66 ffop fs-14 f-400">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==============================
+        our services section ending 
+        ================================-->
+        <!--==============================-md
+        counter up section starting 
+        ================================-->
+        <section class="counter-sec pt-95 pb-85" id="pricing">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-lg-3"> <!-- item 1 -->
+                        <div class="counter_item text-center">
+                            <div class="counter_icon rounded-circle d-flex justify-content-center align-items-center mx-auto mb-10">
+                                <i class="fas fa-chart-line tc-ff fs-25"></i>
+                            </div>
+                            <p class="ffm f-600 fs-27 tc-ff counter">834</p>
+                            <p class="ffm f-600 fs-17 tc-ff uppercase">cases completed</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3"> <!-- item 2 -->
+                        <div class="counter_item text-center">
+                            <div class="counter_icon rounded-circle d-flex justify-content-center align-items-center mx-auto mb-10">
+                                <i class="fas fa-rocket tc-ff fs-25"></i>
+                            </div>
+                            <p class="ffm f-600 fs-27 tc-ff counter">2034</p>
+                            <p class="ffm f-600 fs-17 tc-ff uppercase">success mission</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3"> <!-- item 3 -->
+                        <div class="counter_item text-center">
+                            <div class="counter_icon rounded-circle d-flex justify-content-center align-items-center mx-auto mb-10">
+                                <i class="fas fa-anchor tc-ff fs-25"></i>
+                            </div>
+                            <p class="ffm f-600 fs-27 tc-ff counter">1734</p>
+                            <p class="ffm f-600 fs-17 tc-ff uppercase">work done</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3"> <!-- item 4 -->
+                        <div class="counter_item text-center">
+                            <div class="counter_icon rounded-circle d-flex justify-content-center align-items-center mx-auto mb-10">
+                                <i class="far fa-grin tc-ff fs-25"></i>
+                            </div>
+                            <p class="ffm f-600 fs-27 tc-ff counter">234</p>
+                            <p class="ffm f-600 fs-17 tc-ff uppercase">satisfied customers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==============================
+        counter up section ending 
+        ================================-->
+        <!--==============================
+        team member section starting 
+        ================================-->
+        <section class="our_team pt-90 pb-100" id="shop">
+            <div class="container">
+                <div class="sec_title text-center italic pb-50">
+                    <div class="main_sec_title">
+                        <h2 class="f-700 fs-35 ffm italic">Meet Our Team</h2>
+                    </div>
+                    <div class="bottom_style mt-10 mb-20">
+                        <hr class="line1">
+                        <hr class="line2">
+                    </div>
+                    <div class="sec_des m-auto tc-66 fs-15">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veniam at dolores aut reprehenderit iste pariatur ratione consequuntur aperiam officiis?</p>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6"> <!-- member 1 -->
+                        <div class="member text-center">
+                            <div class="member-img position-relative fix">
+                                <img src="images/team1.jpg" class="img-fluid w-100" alt="membre1">
+                                <div class="social_links bgc-40">
+                                    <ul class="text-center">
+                                        <li class="d-inline-block mr-10"><a href=""><i class="fab fa-facebook-f tc-ff fs-15"></i></a></li>
+                                        <li class="d-inline-block mr-10"><a href=""><i class="fab fa-twitter tc-ff fs-15"></i></a></li>
+                                        <li class="d-inline-block mr-10"><a href=""><i class="fab fa-google-plus-g tc-ff fs-15"></i></a></li>
+                                        <li class="d-inline-block mr-10"><a href=""><i class="fab fa-linkedin-in tc-ff fs-15"></i></a></li>
+                                        <li class="d-inline-block"><a href=""><i class="fab fa-pinterest-p tc-ff fs-15"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="member_des border pt-10 pb-15">
+                                <p class="ffm f-500 fs-17 tc-66 uppercase">MR. Maikel</p>
+                                <p class="ffop f-400 fs-14 tc-66">CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6"> <!-- member 2 -->
+                        <div class="member text-center">
+                            <div class="member-img position-relative fix">
+                                <img src="images/team2.jpg" class="img-fluid w-100" alt="membre2">
+                                <div class="social_links bgc-40">
+                                    <ul class="text-center">
+                                        <li class="d-inline-block mr-10"><a href=""><i class="fab fa-facebook-f tc-ff fs-15"></i></a></li>
+                                        <li class="d-inline-block mr-10"><a href=""><i class="fab fa-twitter tc-ff fs-15"></i></a></li>
+                                        <li class="d-inline-block mr-10"><a href=""><i class="fab fa-google-plus-g tc-ff fs-15"></i></a></li>
+                                        <li class="d-inline-block mr-10"><a href=""><i class="fab fa-linkedin-in tc-ff fs-15"></i></a></li>
+                                        <li class="d-inline-block"><a href=""><i class="fab fa-pinterest-p tc-ff fs-15"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="member_des border pt-10 pb-15">
+                                <p class="ffm f-500 fs-17 tc-66 uppercase">myccale Jonnson</p>
+                                <p class="ffop f-400 fs-14 tc-66">Co-Founder</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6"> <!-- member 3 -->
+                        <div class="member text-center">
+                            <div class="member-img position-relative fix">
+                                <img src="images/team3.jpg" class="img-fluid w-100" alt="membre3">
+                                <div class="social_links bgc-40">
+                                    <ul class="text-center">
+                                        <li class="d-inline-block mr-10"><a href=""><i class="fab fa-facebook-f tc-ff fs-15"></i></a></li>
+                                        <li class="d-inline-block mr-10"><a href=""><i class="fab fa-twitter tc-ff fs-15"></i></a></li>
+                                        <li class="d-inline-block mr-10"><a href=""><i class="fab fa-google-plus-g tc-ff fs-15"></i></a></li>
+                                        <li class="d-inline-block mr-10"><a href=""><i class="fab fa-linkedin-in tc-ff fs-15"></i></a></li>
+                                        <li class="d-inline-block"><a href=""><i class="fab fa-pinterest-p tc-ff fs-15"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="member_des border pt-10 pb-15">
+                                <p class="ffm f-500 fs-17 tc-66 uppercase">Pierre Marie</p>
+                                <p class="ffop f-400 fs-14 tc-66">California</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6"> <!-- member 4 -->
+                        <div class="member text-center">
+                            <div class="member-img position-relative fix">
+                                <img src="images/team4.jpg" class="img-fluid w-100" alt="membre4">
+                                <div class="social_links bgc-40">
+                                    <ul class="text-center">
+                                        <li class="d-inline-block mr-10"><a href=""><i class="fab fa-facebook-f tc-ff fs-15"></i></a></li>
+                                        <li class="d-inline-block mr-10"><a href=""><i class="fab fa-twitter tc-ff fs-15"></i></a></li>
+                                        <li class="d-inline-block mr-10"><a href=""><i class="fab fa-google-plus-g tc-ff fs-15"></i></a></li>
+                                        <li class="d-inline-block mr-10"><a href=""><i class="fab fa-linkedin-in tc-ff fs-15"></i></a></li>
+                                        <li class="d-inline-block"><a href=""><i class="fab fa-pinterest-p tc-ff fs-15"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="member_des border pt-10 pb-15">
+                                <p class="ffm f-500 fs-17 tc-66 uppercase">Noah Collin</p>
+                                <p class="ffop f-400 fs-14 tc-66">Landscaper</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==============================
+        team member section ending 
+        ================================-->
+        <!--==============================
+        gellery section ending 
+        ================================-->
+        <section class="pt-95 pb-100 gallery_sec bgc-f9" id="pages">
+            <div class="container">
+                <div class="sec_title text-center italic pb-50">
+                    <div class="main_sec_title">
+                        <h2 class="f-700 fs-35 ffm italic">Our Gallery</h2>
+                    </div>
+                    <div class="bottom_style mt-10 mb-20">
+                        <hr class="line1">
+                        <hr class="line2">
+                    </div>
+                    <div class="sec_des m-auto tc-66 fs-15">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dicta molestias voluptate illo assumenda expedita! A sapiente quibusdam praesentium?</p>
+                    </div>
+                </div>
+
+                <div class="gallery_categories pb-45">
+                    <ul class="text-center">
+                        <li class="d-inline-block mr-55" data-filter="all"><a class="tc-33 ffop f-600 fs-14 capitalize">all categories</a></li>
+                        <li class="d-inline-block mr-55" data-filter=".garden-care"><a class="tc-33 ffop f-600 fs-14 capitalize">garden care</a></li>
+                        <li class="d-inline-block mr-55" data-filter=".lawn-care"><a class="tc-33 ffop f-600 fs-14 capitalize">lawn care</a></li>
+                        <li class="d-inline-block mr-55" data-filter=".planting"><a class="tc-33 ffop f-600 fs-14 capitalize">planting</a></li>
+                        <li class="d-inline-block" data-filter=".snow-removal"><a class="tc-33 ffop f-600 fs-14 capitalize">snow removal</a></li>
+                    </ul>
+                </div>
+
+                <div class="row g-4 gallery-container"> 
+                    <div class="col-md-6 mix lawn-care planting"> <!-- gallery img1 -->
+                        <div class="gallery_img position-relative">
+                            <img src="images/gallery1.jpg" class="img-fluid w-100" alt="gallery-img1">
+                            <div class="gallery-img-overlay"></div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 mix snow-removal"> <!-- gallery img2 -->
+                        <div class="gallery_img position-relative">
+                            <img src="images/gallery2.jpg" class="img-fluid w-100" alt="gallery-img2">
+                            <div class="gallery-img-overlay"></div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 mix snow-removal"> <!-- gallery img3 -->
+                        <div class="gallery_img position-relative">
+                            <img src="images/gallery3.jpg" class="img-fluid w-100" alt="gallery-img3">
+                            <div class="gallery-img-overlay"></div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 mix garden-care"> <!-- gallery img4 -->
+                        <div class="gallery_img position-relative">
+                            <img src="images/gallery4.jpg" class="img-fluid w-100" alt="gallery-img4">
+                            <div class="gallery-img-overlay"></div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3 mix garden-care planting snow-removal"> <!-- gallery img5 -->
+                        <div class="gallery_img position-relative">
+                            <img src="images/gallery5.jpg" class="img-fluid w-100" alt="gallery-img5">
+                            <div class="gallery-img-overlay"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mix lawn-care"> <!-- gallery img6 -->
+                        <div class="gallery_img position-relative">
+                            <img src="images/gallery6.jpg" class="img-fluid w-100" alt="gallery-img6">
+                            <div class="gallery-img-overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==============================
+        gellery section ending 
+        ================================-->
+        <!--==============================
+        testimonial slider starting 
+        ================================-->
+        <section class="testimonial pt-100 pb-90">
+            <div class="container">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper pb-55">
+                        <div class="swiper-slide"> <!-- client 1 -->
+                            <div class="swiper_content text-center"> 
+                                <img src="images/ibrahim.jpg" class="mx-auto rounded-circle" alt="client 1">
+                                <h2 class="f-600 ffm tc-ff fs-16 pt-20 pb-05">MOHAMMAD</h2>
+                                <p class="f-400 ffop tc-ff fs-16">CEO</p>
+                                <p class="f-400 ffop tc-ff fs-14 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam assumenda, voluptatem quis explicabo, consectetur ut doloribus, nemo iste vero voluptas veniam. Animi blanditiis quaerat laboriosam incidunt inventore veniam culpa optio?</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide"> <!-- client 2 -->
+                            <div class="swiper_content text-center"> 
+                                <img src="images/mohammad.jpg" class="mx-auto rounded-circle" alt="client 2">
+                                <h2 class="f-600 ffm tc-ff fs-16 pt-20 pb-05">IBRAHIM</h2>
+                                <p class="f-400 ffop tc-ff fs-16">Co-Founder</p>
+                                <p class="f-400 ffop tc-ff fs-14 mx-auto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum iure eligendi libero totam saepe consequuntur cumque, soluta aspernatur quis tempore blanditiis rerum ut provident, quam ad possimus doloremque ratione. Alias.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide"> <!-- client 3 -->
+                            <div class="swiper_content text-center"> 
+                                <img src="images/khalil.jpg" class="mx-auto rounded-circle" alt="client 3">
+                                <h2 class="f-600 ffm tc-ff fs-16 pt-20 pb-05">KHALIL</h2>
+                                <p class="f-400 ffop tc-ff fs-16">Director</p>
+                                <p class="f-400 ffop tc-ff fs-14 mx-auto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum iure eligendi libero totam saepe consequuntur cumque, soluta aspernatur quis tempore blanditiis rerum ut provident, quam ad possimus doloremque ratione. Alias.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <!--==============================
+        testimonial slider ending 
+        ================================-->
+        <!--==============================
+        latest news starting 
+        ================================-->
+        <section class="news pt-90 pb-100" id="blog">
+            <div class="container">
+                <div class="sec_title text-center italic pb-45">
+                    <div class="main_sec_title">
+                        <h2 class="f-700 fs-35 ffm italic">Latest News</h2>
+                    </div>
+                    <div class="bottom_style mt-10 mb-20">
+                        <hr class="line1">
+                        <hr class="line2">
+                    </div>
+                    <div class="sec_des m-auto tc-66 fs-15">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eum ipsum mollitia odio! Cupiditate fugiat est inventore placeat eveniet rem, ab consequatur distinctio facere, quisquam aliquam autem id iste illo!</p>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-sm-6 "> <!-- news card one -->
+                        <div class="news-card border">
+                            <div class="img_box position-relative fix">
+                                <img src="images/news1.jpg" class="img-fluid w-100" alt="news 1">
+                                <div class="news-overlay"></div>
+                                <div class="news_btn d-flex align-items-center justify-content-center">
+                                    <p class="f-400 ffop fs-14 tc-ff text-center">10 November</p>
+                                </div>
+                            </div>
+                            <div class="news_content px-15 py-15">
+                                <h2 class="f-500 ffm fs-20 tc-33 capitalize">should choose the Gardenhub</h2>
+                                <p class="f-400 ffop fs-14 tc-33">Lorem ipsum dolor sit amet, consectr adipisi sed do eiusmod tempor incid</p>
+                            </div>
+                            <div class="news_read_more border-top d-flex justify-content-between align-items-center px-15 py-10">
+                                <a href="#" class="d-flex justify-content-center align-items-center">
+                                <span class="ffop fs-14 f-400 tc-33">Read More</span>
+                                <i class="fas fa-angle-double-right fs-14 ml-10"></i>
+                                </a>
+                                <p>
+                                    <i class="far fa-comment"></i>
+                                    <span>10</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 "> <!-- news card two -->
+                        <div class="news-card border">
+                            <div class="img_box position-relative fix">
+                                <img src="images/news2.jpg" class="img-fluid w-100" alt="news 1">
+                                <div class="news-overlay"></div>
+                                <div class="news_btn d-flex align-items-center justify-content-center">
+                                    <p class="f-400 ffop fs-14 tc-ff text-center">12 November</p>
+                                </div>
+                            </div>
+                            <div class="news_content px-15 py-15">
+                                <h2 class="f-500 ffm fs-20 tc-33 capitalize">Good Lawn always Adds Value</h2>
+                                <p class="f-400 ffop fs-14 tc-33">Lorem ipsum dolor sit amet, consectr adipisi sed do eiusmod tempor incid</p>
+                            </div>
+                            <div class="news_read_more border-top d-flex justify-content-between align-items-center px-15 py-10">
+                                <a href="#" class="d-flex justify-content-center align-items-center">
+                                <span class="ffop fs-14 f-400 tc-33">Read More</span>
+                                <i class="fas fa-angle-double-right fs-14 ml-10"></i>
+                                </a>
+                                <p>
+                                    <i class="far fa-comment"></i>
+                                    <span>12</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 mx-auto"> <!-- news card three -->
+                        <div class="news-card border">
+                            <div class="img_box position-relative fix">
+                                <img src="images/news3.jpg" class="img-fluid w-100" alt="news 1">
+                                <div class="news-overlay"></div>
+                                <div class="news_btn d-flex align-items-center justify-content-center">
+                                    <p class="f-400 ffop fs-14 tc-ff text-center">15 November</p>
+                                </div>
+                            </div>
+                            <div class="news_content px-15 py-15">
+                                <h2 class="f-500 ffm fs-20 tc-33 capitalize">Neward our people for taking</h2>
+                                <p class="f-400 ffop fs-14 tc-33">Lorem ipsum dolor sit amet, consectr adipisi sed do eiusmod tempor incid</p>
+                            </div>
+                            <div class="news_read_more border-top d-flex justify-content-between align-items-center px-15 py-10">
+                                <a href="#" class="d-flex justify-content-center align-items-center">
+                                <span class="ffop fs-14 f-400 tc-33">Read More</span>
+                                <i class="fas fa-angle-double-right fs-14 ml-10"></i>
+                                </a>
+                                <p>
+                                    <i class="far fa-comment"></i>
+                                    <span>15</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==============================
+        latest news ending 
+        ================================-->
+    </main>
+
+    <!--==============================
+    footer section starting 
+    ================================-->
+    <footer class="bgc-15 pt-100 pb-50" id="contact">
+        <div class="container">
+            <div class="row first_row pb-90">
+                <div class="col-sm-8 col-lg-4"> <!-- footer content 1 -->
+                    <div class="footer_content">
+                        <div class="footer-img">
+                            <img src="images/footer-logo.png" alt="footer logo" class="img-fluid">
+                        </div>
+                        <p class="tc-dd fs-15 ffop f-400 pt-25 pb-35">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic perferendis assumenda quia reiciendis qui? Perferendis cumque, esse, blanditiis, illum nulla suscipit saepe sapiente fugit rerum odit commodi nostrum animi voluptates!</p>
+                        <hr class="tc-dd mb-20">
+                        <div class="footer_icons">
+                            <ul>
+                                <li class="d-inline-block mr-15">
+                                    <a href="">
+                                        <i class="fab fa-facebook-f tc-80 fs-13"></i>
+                                    </a>
+                                </li>
+                                <li class="d-inline-block mr-15">
+                                    <a href="">
+                                        <i class="fab fa-twitter tc-80 fs-13"></i>
+                                    </a>
+                                </li>
+                                <li class="d-inline-block mr-15">
+                                    <a href="">
+                                        <i class="fab fa-skype tc-80 fs-13"></i>
+                                    </a>
+                                </li>
+                                <li class="d-inline-block">
+                                    <a href="">
+                                        <i class="fas fa-share-alt tc-80 fs-13"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-lg-2"> <!-- footer content 2 -->
+                    <div class="footer_links_part">
+                        <h3 class="f-500 fs-24 ffm tc-dd">Useful Links</h3>
+                        <div class="footer_links pt-30">
+                            <ul>
+                                <li class="pb-05">    
+                                    <a href="#" class="d-flex align-items-center">
+                                        <i class="fas fa-circle tc-dd mr-10"></i>
+                                        <span  class="tc-dd f-600 fs-15 ffop">Home</span>
+                                    </a>
+                                </li>
+                                <li class="pb-05">    
+                                    <a href="#" class="d-flex align-items-center">
+                                        <i class="fas fa-circle tc-dd mr-10"></i>
+                                        <span  class="tc-dd f-600 fs-15 ffop">Service</span>
+                                    </a>
+                                </li>
+                                <li class="pb-05">    
+                                    <a href="#" class="d-flex align-items-center">
+                                        <i class="fas fa-circle tc-dd mr-10"></i>
+                                        <span  class="tc-dd f-600 fs-15 ffop">Our Team</span>
+                                    </a>
+                                </li>
+                                <li class="pb-05">    
+                                    <a href="#" class="d-flex align-items-center">
+                                        <i class="fas fa-circle tc-dd mr-10"></i>
+                                        <span  class="tc-dd f-600 fs-15 ffop">Product</span>
+                                    </a>
+                                </li>
+                                <li class="pb-05">    
+                                    <a href="#" class="d-flex align-items-center">
+                                        <i class="fas fa-circle tc-dd mr-10"></i>
+                                        <span  class="tc-dd f-600 fs-15 ffop">Meet Our Blog</span>
+                                    </a>
+                                </li>
+                                <li>    
+                                    <a href="#" class="d-flex align-items-center">
+                                        <i class="fas fa-circle tc-dd mr-10"></i>
+                                        <span  class="tc-dd f-600 fs-15 ffop">Contact</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3"> <!-- footer conrtent 3 -->
+                    <div class="footer_posts">
+                        <h3 class="f-500 fs-24 ffm tc-dd pb-35">Recent Post</h3>
+                        <div class="footer_single_post d-flex align-items-center pb-20"> <!-- psot 1 -->
+                            <div class="post_img mr-20">
+                                <img src="images/footer-img1.jpg" alt="post-img">
+                            </div>
+                            <div class="post_des">
+                                <a href="">
+                                    <h4 class="f-400 fs-16 ffm tc-dd pb-05">Reward our people for taking</h4>
+                                    <p class="f-600 fs-13 ffop tc-97">November 27, 2020</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer_single_post d-flex align-items-center pb-20"> <!-- post 2 -->
+                            <div class="post_img mr-20">
+                                <img src="images/footer-img2.jpg" alt="post-img">
+                            </div>
+                            <div class="post_des">
+                                <a href="">
+                                    <h4 class="f-400 fs-16 ffm tc-dd pb-05">Reward our people for caring</h4>
+                                    <p class="f-600 fs-13 ffop tc-97">August 24, 2021</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3"> <!-- footer content 4 -->
+                    <div class="opening_hours">
+                        <h3 class="f-500 fs-24 ffm tc-dd pb-30">Opening Time</h3>
+                        <div class="times pb-10">
+                            <p class="d-flex justify-content-between align-items-center">
+                                <span class="fs-14 ffop f-400 tc-ff">Saturday</span>
+                                <span class="fs-14 ffop f-400 tc-ff">24-Hour Shift</span>
+                            </p>
+                        </div>
+                        <div class="times mt-20 pb-10">
+                            <p class="d-flex justify-content-between align-items-center">
+                                <span class="fs-14 ffop f-400 tc-ff">Monday</span>
+                                <span class="fs-14 ffop f-400 tc-ff">09:00-21:00</span>
+                            </p>
+                        </div>
+                        <div class="times mt-20 pb-10">
+                            <p class="d-flex justify-content-between align-items-center">
+                                <span class="fs-14 ffop f-400 tc-ff">Wednesday</span>
+                                <span class="fs-14 ffop f-400 tc-ff">209:00-20:00</span>
+                            </p>
+                        </div>
+                        <div class="times mt-20 pb-10">
+                            <p class="d-flex justify-content-between align-items-center">
+                                <span class="fs-14 ffop f-400 tc-ff">Friday</span>
+                                <span class="fs-14 ffop f-400 tc-ff">10:00-18:00</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="tc-dd">
+            <div class="row">
+                <div class="col-md-6 col-lg-6">
+                    <div class="copyright pt-45">
+                        <h2 class="ffop f-400 fs-14 tc-dd">Copyright 2021 Al Right Reserved: IBRAHIM KHALIL</h2>
+                    </div>
+                </div>
+                <!-- <div class="col-md-6 col-lg-6 text-end">
+                    <div class="bottom_links pt-35">
+                        <ul>
+                            <li class="d-inline-block mr-15"><a href="" class="ffop f-400 fs-14 tc-dd">Home</a></li>
+                            <li class="d-inline-block mr-15"><a href="" class="ffop f-400 fs-14 tc-dd">About</a></li>
+                            <li class="d-inline-block mr-15"><a href="" class="ffop f-400 fs-14 tc-dd">Service</a></li>
+                            <li class="d-inline-block"><a href="" class="ffop f-400 fs-14 tc-dd">Contact</a></li>
+                        </ul>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </footer>
+    <!--==============================
+    footer section ending 
+    ================================-->
+    <!--==============================
+    go top button starting 
+    ================================-->
+    <!-- <a id="button">
+        <i class="fas fa-angle-up fs-24 tc-ff"></i>
+    </a> -->
+    <!--==============================
+    go top button ending 
+    ================================-->
+    <!-- =========================
+    js plugin area starting
+    ===========================-->
+    <!-- main jq here -->
+    <script src="js/jquery.min.js"></script>
+    <!-- bootstrap js here -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- plugin js code files here -->
+    <script src="js/fancybox2.umd.js"></script>
+    <script src="js/lity.min.js"></script>
+    <script src="js/sitcky-header.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- custom js file here -->
+    <script src="js/main.js"></script>
+    <script>
+        /*==================
+        mixitup jq plugin
+        ==================*/
+        var mixer = mixitup('.gallery-container');
+        /*==================
+        toogle menubar js
+        ==================*/
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+        /*==================
+        swiper jq plugin
+        ==================*/
+        var swiper = new Swiper('.swiper-container', {
+            loop: true,
+            speed:1000,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable:true,
+            },
+        });
+        /*============================
+        go top btn js code
+        ============================*/
+        var btn = $('#button');
+        $(window).scroll(function() {
+        if ($(window).scrollTop() > 300) {
+            btn.addClass('show');
+        } else {
+            btn.removeClass('show');
+        }
+        });
+        btn.on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({scrollTop:0}, '300');
+        });
+
+        /*===================================
+        smooth scroling to section code
+        =====================================*/
+        $(document).ready(function(){
+        $("a").on('click', function(event) {
+            if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
+                window.location.hash = hash;
+            });
+            }
+        });
+        });
+    </script>
+    <!-- =========================
+    js plugin area ending
+    ===========================-->
+</body>
+</html>
+

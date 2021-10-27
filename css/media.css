@@ -1,0 +1,1006 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+    /**========================
+    hero section starting
+    =========================**/
+    .hero_section .row {
+        min-height: 600px;
+    }
+
+    /**========================
+    lnd_sec starting
+    =========================**/
+    .lnd-content p {
+        padding: 25px 0 20px;
+    }
+
+    /**========================
+    service section starting
+    =========================**/
+    .service_content h2 {
+        font-size: 16px;
+    }
+
+    /**========================
+    counter starting
+    =========================**/
+    .counter-sec {
+        padding: 80px 0 70px;
+    }
+
+    /**========================
+    team section starting
+    =========================**/
+    .our_team {
+        padding: 80px 0 90px;
+    }
+
+    /**========================
+    testimonial slider starting
+    =========================**/
+    .testimonial {
+        padding: 85px 0 75px;
+    }
+    /**========================
+    footer starting
+    =========================**/
+    footer .first_row{
+        padding-bottom: 50px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /**========================
+    header starting
+    =========================**/
+    nav .main_menu ul li {
+        margin-right: 30px;
+    }
+
+    /**========================
+    hero section starting
+    =========================**/
+    .hero_section .row {
+        min-height: 530px;
+    }
+
+    .banner_content h1 {
+        font-size: 46px;
+    }
+
+    .banner_content p {
+        padding: 20px 0 35px;
+    }
+
+    /**========================
+    welcome garden starting
+    =========================**/
+    .wel_garden {
+        padding: 60px 0 50px;
+    }
+
+    .garden_box h3 {
+        font-size: 16px;
+    }
+
+    /**========================
+    lnd_sec starting
+    =========================**/
+    .lnd_sec {
+        padding: 80px 0;
+    }
+    .lnd-content p{
+        padding: 25px 0 20px;
+    }
+
+    /**========================
+    service section starting
+    =========================**/
+    .service {
+        padding: 70px 0 65px;
+    }
+
+    /**========================
+    counter starting
+    =========================**/
+    .counter-sec {
+        padding: 75px 0 65px;
+    }
+
+    .counter_item p:last-of-type {
+        font-size: 16px;
+    }
+
+    /**========================
+    team section starting
+    =========================**/
+    .member_des p:first-child {
+        font-size: 15px;
+    }
+    .our_team {
+        padding: 70px 0 80px;
+    }
+
+    /**========================
+    geallery starting
+    =========================**/
+    .gallery_sec {
+        padding: 75px 0 80px;
+    }
+
+    /**========================
+    testimonial slider starting
+    =========================**/
+    .testimonial {
+        padding: 80px 0 70px;
+    }
+
+    /**========================
+    news starting
+    =========================**/
+    .news {
+        padding: 70px 0 80px;
+    }
+
+    /**========================
+    footer section starting
+    =========================**/
+    footer {
+        padding-top: 80px;
+    }
+
+    footer .first_row {
+        padding-bottom: 70px;
+    }
+
+    .footer_links_part h3,
+    .footer_posts h3,
+    .opening_hours h3 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+    .main_sec_title h2{
+        font-size: 30px;
+    }
+    /**========================
+    hero section starting
+    =========================**/
+    .hero_section .row {
+        min-height: 390px;
+    }
+
+    .banner_content h1 {
+        font-size: 33px;
+    }
+
+    .banner_content p {
+        padding: 15px 0 30px;
+    }
+    /**========================
+    welcome garden starting
+    =========================**/
+    .wel_garden {
+        padding: 50px 0 40px;
+    }
+    /**========================
+    lnd_sec starting
+    =========================**/
+    .lnd_sec .col-lg-5{
+        width: 80% !important;
+        margin: auto;
+    }
+    .lnd-content{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .lnd-content p{
+        padding: 25px 0 20px;
+    }
+    .lnd_ser_list{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    /**========================
+    service section starting
+    =========================**/
+    .service {
+        padding: 70px 0 65px;
+    }
+    .service .col-lg-6{
+        width: 80%;
+        margin: auto;
+    }
+    /**========================
+    counter starting
+    =========================**/
+    .counter-sec{
+        padding: 65px 0 55px;
+    }
+    .counter_item{
+        padding: 20px 0;
+    }
+    /**========================
+    team section starting
+    =========================**/
+    .our_team {
+        padding: 70px 0 80px;
+    }
+    /**========================
+    geallery starting
+    =========================**/
+    .gallery_sec{
+        padding: 75px 0 80px ;
+    }
+    .gallery_categories ul{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .gallery_categories ul li{
+        -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+                flex-grow: 1;
+        margin-right: 0px !important;
+    }
+    .gallery_sec .row{
+        --bs-gutter-x:15px;
+        --bs-gutter-y:15px;
+    }
+    /**========================
+    news starting
+    =========================**/
+    .news{
+        padding: 70px 0 80px;
+    }
+    .news .row .col-sm-6:last-of-type{
+        margin-top: 40px !important;
+    }
+    /**========================
+    footer starting
+    =========================**/
+    footer .first_row .col-sm-6:nth-child(3),
+    footer .first_row .col-sm-6:last-of-type{
+        margin-top: 40px ;
+    }
+    footer {
+        padding-top: 60px;
+        padding-bottom: 0px !important;
+    }
+    footer .row {
+        padding-bottom: 50px;
+    }
+}
+
+@media (min-width:0px) and (max-width: 991px) {
+
+    /**========================
+    header starting
+    =========================**/
+    nav {
+        padding: 30px 0 !important;
+    }
+    .main_menu {
+        position: fixed;
+        width: 50%;
+        top: 0%;
+        left: -100%;
+        min-height: 100vh;
+        height: 100% !important;
+        background-color: #73b21a;
+        -webkit-transition: .5s all ease-in-out !important;
+        -o-transition: .5s all ease-in-out !important;
+        transition: .5s all ease-in-out !important;
+        z-index: 999;
+    }
+    nav .main_menu ul li {
+        padding: 13px 0;
+        margin: 0;
+    }
+    nav .main_menu ul li:last-of-type {
+        padding: 13px 0 !important;
+    }
+    nav .main_menu ul li a {
+        color: #ffffff !important;
+    }
+    nav .main_menu ul li.active a{
+        color: #ffffff !important;
+    }   
+    .open-menu {
+        left: 0;
+    }
+    .header-sticky.stick {
+        padding: 25px 0px !important;
+    }
+    #button{
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        right: 20px;    
+    }
+}
+
+@media (min-width:576px) and (max-width: 767px) {
+
+    /**========================
+    header starting
+    =========================**/
+    .main_menu {
+        width: 70%;
+    }
+
+    .header-sticky.stick {
+        padding: 20px 0px !important;
+    }
+}
+@media (min-width:576px) and (max-width: 767px){
+    /**========================
+    hero section starting
+    =========================**/
+    .hero_section .row {
+        min-height: 500px;
+    }
+    .banner_content h1 {
+        font-size: 44px;
+    }
+    .banner_content p {
+        padding: 20px 0 35px;
+    }
+    /**========================
+    welcome garden starting
+    =========================**/
+    .wel_garden {
+        padding: 50px 0 40px;
+    }
+    /**========================
+    lnd_sec starting
+    =========================**/
+    .lnd_sec{
+        padding: 70px 0;
+    }
+    .lnd-content {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .lnd-content p {
+        padding: 25px 0 20px;
+    }
+
+    .lnd_ser_list {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    /**========================
+    service section starting
+    =========================**/
+    .service{
+        padding: 60px 0 55px;
+    }
+    .service_box .service_icon span{
+        margin: auto !important;
+    }
+    .service_box{
+        text-align: center;
+    }
+    .service_icon{
+        margin-right: 0 !important;
+        margin-bottom: 20px;
+    }
+    .service_content h2{
+        font-size: 14px;
+    }
+    /**========================
+    counter starting
+    =========================**/
+    .counter-sec {
+        padding: 65px 0 55px;
+    }
+    .counter_item {
+        padding: 20px 0;
+    }
+    /**========================
+    team section starting
+    =========================**/
+    .our_team {
+        padding: 60px 0 70px;
+    }
+    /**========================
+    geallery starting
+    =========================**/
+    .gallery_sec {
+        padding: 65px 0 70px;
+    }
+    .gallery_categories ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .gallery_categories ul li {
+        -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+                flex-grow: 1;
+        margin-right: 0px !important;
+    }
+    .gallery_sec .row{
+        --bs-gutter-x:15px;
+        --bs-gutter-y:15px;
+    }
+    /**========================
+    testimonial slider starting
+    =========================**/
+    .testimonial{
+        padding: 70px 0 60px;
+    }
+    /**========================
+    news starting
+    =========================**/
+    .news{
+        padding:60px 0 70px ;
+    }
+    .news .row .col-sm-6:last-of-type{
+        padding-top: 30px;
+    }
+    /**========================
+    footer starting
+    =========================**/
+    footer .first_row .col-sm-6:nth-child(3),
+    footer .first_row .col-sm-6:last-of-type{
+        margin-top: 40px ;
+    }
+    footer {
+        padding-top: 60px;
+        padding-bottom: 0px !important;
+    }
+    footer .row {
+        padding-bottom: 50px;
+    }
+    footer .first_row .footer_links_part h3,
+    footer .first_row .footer_posts h3,
+    footer .first_row .opening_hours h3 {
+        font-size: 23px;
+    }
+    .copyright,
+    .bottom_links {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+}
+@media (min-width:0px) and (max-width: 575px) {
+
+    /**========================
+    header starting
+    =========================**/
+    .main_menu {
+        width: 75%;
+        padding: 20px 0px !important;
+    }
+
+    .singin_up li:first-child {
+        margin: 0 !important;
+    }
+
+    .header-sticky.stick {
+        padding: 20px 0px !important;
+    }
+    /**========================
+    mobile search area starting
+    =========================**/
+    .search-box {
+        min-width: 300px;
+        padding: 15px;
+    }
+    #button{
+        width: 40px;
+        height: 40px;
+        bottom: 10px;
+        right: 10px;    
+    }
+}
+@media (min-width:426px) and (max-width: 575px){
+    /**========================
+    hero section starting
+    =========================**/
+    .hero_section .row {
+        min-height: 500px;
+    }
+
+    .banner_content h1 {
+        font-size: 44px;
+    }
+
+    .banner_content p {
+        padding: 20px 0 35px;
+    }
+    /**========================
+    welcome garden starting
+    =========================**/
+    .wel_garden {
+        padding: 50px 0 40px;
+    }
+    .wel_garden .row .col-md-6{
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    /**========================
+    lnd_sec starting
+    =========================**/
+    .lnd_sec {
+        padding: 70px 0;
+    }
+    .lnd_ser_list{
+        margin-right: 0px !important;
+    }
+    .lnd_ser_list1{
+        margin-right: 30px !important;
+    }
+    .lnd-content p {
+        padding: 25px 0 20px;
+    }
+    /**========================
+    service section starting
+    =========================**/
+    .service{
+        padding: 60px 0 55px;
+    }
+    .service .row .col-sm-6{
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .service_box .service_icon span{
+        margin: auto !important;
+    }
+    .service_box{
+        text-align: center;
+    }
+    .service_icon{
+        margin-right: 0 !important;
+        margin-bottom: 20px;
+    }
+    .service_content h2{
+        font-size: 14px;
+    }
+    /**========================
+    counter starting
+    =========================**/
+    .counter-sec {
+        padding: 45px 0 35px;
+    }
+    .counter_item {
+        padding: 20px 0;
+    }
+    /**========================
+    team section starting
+    =========================**/
+    .our_team {
+        padding: 60px 0 70px;
+    }
+    .our_team .row .col-sm-6{
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    /**=========================
+    geallery starting
+    =========================**/
+    .gallery_sec {
+        padding: 55px 0 60px;
+    }
+    .gallery_categories ul li {
+        margin-right: 20px !important;
+    }
+    .gallery_sec .row{
+        --bs-gutter-x:15px;
+        --bs-gutter-y:15px;
+    }
+    /**========================
+    news starting
+    =========================**/
+    .news {
+        padding: 60px 0 70px;
+    }
+    
+    .news .row .col-sm-6 {
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    /**========================
+    footer starting
+    =========================**/
+    footer .first_row .footer_links_part,
+    footer .first_row .footer_posts,
+    footer .first_row .opening_hours {
+        margin-top: 40px ;
+    }
+    footer {
+        padding-top: 50px !important;
+        padding-bottom: 0px !important;
+        text-align: center;
+    }
+    footer .row {
+        padding-bottom: 50px;
+    }
+    .footer_single_post{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .copyright,
+    .bottom_links {
+        text-align: center;
+        padding-top: 20px;
+    }
+    .footer_links ul{
+        display: -ms-grid;
+        display: grid;
+        place-content: center;
+    }
+}
+@media (min-width:426px) and (max-width: 485px){
+    /**========================
+    lnd_sec starting
+    =========================**/
+    .lnd_ser_list{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+}
+@media (min-width:376px) and (max-width: 425px){
+    .menu-toggle-bar {
+        margin-right: 10px !important;
+    }
+    /**========================
+    hero section starting
+    =========================**/
+    .hero_section .row {
+        min-height: 500px;
+    }
+
+    .banner_content h1 {
+        font-size: 44px;
+    }
+
+    .banner_content p {
+        padding: 20px 0 35px;
+    }
+    .main_sec_title h2{
+        font-size: 30px;
+    }
+    /**========================
+    welcome garden starting
+    =========================**/
+    .wel_garden {
+        padding: 50px 0 40px;
+    }
+    .wel_garden .row .col-md-6{
+        width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    /**========================
+    lnd_sec starting
+    =========================**/
+    .lnd_sec {
+        padding: 70px 0;
+    }
+
+    .lnd_ser_list {
+        margin-right: 0px !important;
+    }
+    .lnd_ser_list {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .lnd-content p {
+        padding: 25px 0 20px;
+    }
+
+    /**========================
+    service section starting
+    =========================**/
+    .service {
+        padding: 60px 0 55px;
+    }
+
+    .service_box .service_icon span {
+        margin: auto !important;
+    }
+
+    .service_box {
+        text-align: center;
+    }
+
+    .service_icon {
+        margin-right: 0 !important;
+        margin-bottom: 20px;
+    }
+
+    .service_content h2 {
+        font-size: 14px;
+    }
+    .service .row .col-sm-6 {
+        width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    /**========================
+    counter starting
+    =========================**/
+    .counter-sec {
+        padding: 45px 0 35px;
+    }
+    .counter_item {
+        padding: 20px 0;
+    }
+
+    /**========================
+    team section starting
+    =========================**/
+    .our_team {
+        padding: 60px 0 70px;
+    }
+
+    .our_team .row .col-sm-6 {
+        width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    /**=========================
+    geallery starting
+    =========================**/
+    .gallery_sec {
+        padding: 55px 0 60px;
+    }
+
+    .gallery_categories ul li {
+        margin-right: 20px !important;
+    }
+
+    .gallery_sec .row {
+        --bs-gutter-x: 15px;
+        --bs-gutter-y: 15px;
+    }
+    /**========================
+    testimonial  starting
+    =========================**/
+    .testimonial{
+        padding:70px 0 60px ;
+    }
+    /**========================
+    news starting
+    =========================**/
+    .news {
+        padding: 50px 0 60px;
+    }
+
+    .news .row .col-sm-6 {
+        width: 85%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    /**========================
+    footer starting
+    =========================**/
+    footer .first_row .footer_links_part,
+    footer .first_row .footer_posts,
+    footer .first_row .opening_hours {
+        margin-top: 60px;
+    }
+
+    footer {
+        padding-top: 50px !important;
+        padding-bottom: 0px !important;
+        text-align: center;
+    }
+
+    footer .row {
+        padding-bottom: 50px;
+    }
+
+    .footer_single_post {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+
+    .copyright,
+    .bottom_links {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .footer_links ul {
+        display: -ms-grid;
+        display: grid;
+        place-content: center;
+    }
+}
+
+@media (min-width:0px) and (max-width: 375px) {
+    .main_menu {
+        width: 70%;
+    }
+    /**========================
+    hero section starting
+    =========================**/
+    .hero_section .row {
+        min-height: 500px;
+    }
+
+    .banner_content h1 {
+        font-size: 40px;
+    }
+
+    .banner_content p {
+        padding: 20px 0 35px;
+    }
+    .main_sec_title h2{
+        font-size: 26px;
+    }
+    .hero_section{
+        text-align: center;
+    }
+    /**========================
+    welcome garden starting
+    =========================**/
+    .wel_garden {
+        padding: 50px 0 40px;
+    }
+    .garden_box h3{
+        font-size: 17px;
+    }
+    /**========================
+    lnd_sec starting
+    =========================**/
+    .lnd_sec {
+        padding: 70px 0;
+    }
+
+    .lnd_ser_list {
+        margin-right: 0px !important;
+    }
+    .lnd_ser_list {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .lnd-content p {
+        padding: 25px 0 20px;
+    }
+    .lnd-content{
+        text-align: center;
+    }
+
+    /**========================
+    service section starting
+    =========================**/
+    .service {
+        padding: 60px 0 55px;
+    }
+
+    .service_box .service_icon span {
+        margin: auto !important;
+    }
+
+    .service_box {
+        text-align: center;
+    }
+
+    .service_icon {
+        margin-right: 0 !important;
+        margin-bottom: 20px;
+    }
+
+    .service_content h2 {
+        font-size: 14px;
+    }
+    /**========================
+    counter starting
+    =========================**/
+    .counter-sec {
+        padding: 45px 0 35px;
+    }
+    .counter_item {
+        padding: 20px 0;
+    }
+
+    /**========================
+    team section starting
+    =========================**/
+    .our_team {
+        padding: 60px 0 70px;
+    }
+
+    /**=========================
+    geallery starting
+    =========================**/
+    .gallery_sec {
+        padding: 55px 0 60px;
+    }
+
+    .gallery_categories ul li {
+        margin-right: 20px !important;
+    }
+
+    .gallery_sec .row {
+        --bs-gutter-x: 15px;
+        --bs-gutter-y: 15px;
+    }
+    /**========================
+    testimonial  starting
+    =========================**/
+    .testimonial{
+        padding:70px 0 60px ;
+    }
+    /**========================
+    news starting
+    =========================**/
+    .news {
+        padding: 50px 0 60px;
+    }
+
+    /**========================
+    footer starting
+    =========================**/
+    footer .first_row .footer_links_part,
+    footer .first_row .footer_posts,
+    footer .first_row .opening_hours {
+        margin-top: 60px;
+    }
+
+    footer {
+        padding-top: 50px !important;
+        padding-bottom: 0px !important;
+        text-align: center;
+    }
+
+    footer .row {
+        padding-bottom: 50px;
+    }
+
+    .footer_single_post {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+
+    .copyright,
+    .bottom_links {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .footer_links ul {
+        display: -ms-grid;
+        display: grid;
+        place-content: center;
+    }
+}
+@media (min-width:0px) and (max-width: 320px){
+    .menu-toggle-bar {
+        margin-right: 7px;
+    }
+}
